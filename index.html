@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!--Logos-->
+    <script src="https://kit.fontawesome.com/c8ebcc39bc.js" crossorigin="anonymous"></script>
+    <!--Animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Animaciones 2-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--css---->
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+<body>
+
+    <!--NAV // HEADER--> 
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <i class=" logoUni fas fa-university"></i>
+                <h5>Universidad<b>Catolica</b></h5>
+              <button class="navbar-toggler" j type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link animate__animated animate__lightSpeedInLeft animacionHome" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link animate__animated animate__lightSpeedInLeft animacionNoso" href="pages/nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link animate__animated animate__lightSpeedInLeft animacionCurso" href="pages/cursos.html">CURSOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link animate__animated animate__lightSpeedInLeft animacionContac" href="pages/contacto.html">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>     
+
+
+    <!--Carrusel-->
+
+    <div class="container-fluid">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/carrusel1.jpg" class="d-block w-100" alt="peluqueria">
+          </div>
+          <div class="carousel-item">
+              <img src="img/carrusel2.jpg" class="d-block w-100" alt="tijeras">
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    </div>
+
+
+
+    <!--CURSOS QUE OFRECEMOS-->
+    
+    <section class="course">
+      <h1>Curso Que Ofrecemos</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita delectus illo praesentium consectetur.</p>
+        
+
+        <div class="row" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="course-col">
+                <h3>Inicial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid numquam odio sint ducimus eius, corrupti eaque mollitia placeat nulla quam dolorem aperiam! Nisi dicta eaque dolores quia accusamus omnis iure.</p>
+            </div>
+            <div class="course-col">
+                <h3>Intermedio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid numquam odio sint ducimus eius, corrupti eaque mollitia placeat nulla quam dolorem aperiam! Nisi dicta eaque dolores quia accusamus omnis iure.</p>
+            </div>
+            <div class="course-col">
+                <h3>Avanzado</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid numquam odio sint ducimus eius, corrupti eaque mollitia placeat nulla quam dolorem aperiam! Nisi dicta eaque dolores quia accusamus omnis iure.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--NUESTRAS UNIVERSIDADES-->
+
+
+    <section class="campus">
+        <h1>Nuestras Universidades</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita delectus illo praesentium consectetur.</p>
+        <div class="row" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="campus-col">
+                <img src="img/cordoba.png">
+                <div class="layer">
+                    <h3>Còrdoba</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/bsas.png">
+                <div class="layer">
+                    <h3>Buenos Aires</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/rosario.png">
+                <div class="layer">
+                    <h3>Rosario</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--ZONAS DE CONFORT-->
+
+
+    <section class="facilites">
+        <h1>Zonas De Confort</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita delectus illo praesentium consectetur.</p>
+
+        <div class="row" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="facilites-col">
+                <img src="img/biblio.png">
+                <h3>Nuestras Bibliotecas</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cupiditate maiores. Earum labore totam non, ab similique pariatur natus rerum! Aliquam dolorum laboriosam nihil laud.</p>    
+            </div>
+            <div class="facilites-col">
+                <img src="img/cancha.png">
+                <h3>Zonas de Juego</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cupiditate maiores. Earum labore totam non, ab similique pariatur natus rerum! Aliquam dolorum laboriosam nihil laud.</p>    
+            </div>
+            <div class="facilites-col">
+                <img src="img/comedor.png">
+                <h3>Nuestro Comedor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cupiditate maiores. Earum labore totam non, ab similique pariatur natus rerum! Aliquam dolorum laboriosam nihil laud.</p>    
+            </div>
+        </div>
+    </section>
+
+
+    <!--NUESTROS ESTUDIANTES-->
+
+    <section class="testimonials">
+        <h1>Nuestros Estudiantes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita delectus illo praesentium consectetur.</p>
+        <div class="row" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="testimonials-col">
+                <img src="img/user1.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt deleniti unde voluptates fugiat, necessitatibus earum perspiciatis. Velit modi blanditiis dolorem vel.</p>
+                    <h3>Virginia Suller</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="img/user2.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt deleniti unde voluptates fugiat, necessitatibus earum perspiciatis. Velit modi blanditiis dolorem vel.</p>
+                    <h3>Paul Weller</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="img/user3.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt deleniti unde voluptates fugiat, necessitatibus earum perspiciatis. Velit modi blanditiis dolorem vel.</p>
+                    <h3>Paul Weller</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="img/user4.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt deleniti unde voluptates fugiat, necessitatibus earum perspiciatis. Velit modi blanditiis dolorem vel.</p>
+                    <h3>Paul Weller</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--CURSOS EN LINEA-->
+
+    <section class="cta">
+        <h1>Inscríbase en nuestros diversos cursos en línea</h1>
+        <a href="" class="hero-btn red-btn">Contactate</a>
+    </section>
+
+
+    <!--FOOTER-->
+
+    <section class="footer">
+        <h4>Sobre Nosotros</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusamus, magni consequatur dolores sequi illo dolor cupiditate eum, <br> vitae esse repellendus quam.</p>
+        <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </section>
+
+<!--Animaciones-->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+<!--Boostrap-->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

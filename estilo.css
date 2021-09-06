@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*INDEX HTML*/
+
+/*NAV // HEADER*/
+
+
+.logoUni{
+    font-size: 40px;
+}
+
+h5{
+    color: black;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+b{
+    color: #c4d3df;
+    font-weight: 500;
+}
+
+.navbar-nav li{
+    padding: 20px;
+}
+
+.navbar-nav li a{
+    color: black !important;
+    font-weight: 400;
+}
+
+#navbarNav ul li::after{
+        content:"";
+        width: 0%;
+        height: 2px;
+        background: #c4d3df;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+}
+
+#navbarNav ul li:hover::after{
+    width: 100%;
+
+}
+
+.animacionHome{
+    animation-duration: 1.5;
+}
+
+.animacionNoso{
+    animation-duration: 2s;
+}
+
+.animacionCurso{
+    animation-duration: 3s;
+}
+
+.animacionContac{
+    animation-duration: 4s;
+}
+
+/*VISTA CELU*/
+
+.fa-bars{
+    color: #c4d3df;
+    font-size: 30px !important;  
+}
+
+@media(max-width: 700px){
+    .logoUni{
+        display: none;
+    }
+    
+}
+
+
+
+
+/*BOTONES*/
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    font-weight: 600;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    animation-duration: 2.5s;
+}
+
+.hero-btn:hover{
+    border: 2px solid #c4d3df;
+    background: #c4d3df;
+    transition: 1s;
+}
+
+.red-btn{
+    border: 2px solid #c4d3df;
+    background: transparent;
+    color: black;
+}
+
+.red-btn:hover{
+    color: black;
+    background: #c4d3df;
+}
+
+
+
+/*CURSOS QUE OFRECEMOS*/
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+
+.animacion{
+    animation-duration: 4s;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: rgba(196, 211, 223, 0.4);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0 rgba(196, 211, 223, 0.9);
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    
+}
+
+
+/*NUESTRAS UNIVERSIDADES*/
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.campus-col img{
+    width: 100%;
+    display: block;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(196, 211, 223, 0.4);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 40%;
+    opacity: 1;
+}
+
+
+/*ZONAS DE CONFORT*/
+
+.facilites{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.facilites-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.facilites-col:hover{
+    transform: translateY(-15px);
+
+}
+
+.facilites-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.facilites-col p{
+    padding: 0;
+}
+
+.facilites-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+
+/*NUESTROS ESTUDIANTES*/
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.testimonials-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: rgba(196, 211, 223, 0.4);
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonials-col img{
+    height: 70px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.testimonials-col p{
+    padding: 0;
+}
+
+.testimonials-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+
+.testimonials-col .fas{
+    color: #f44336;
+}
+
+@media(max-width: 700px){
+    .testimonials-col img{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+}
+
+
+
+/*CURSOS EN LINEA ( CONTACTATE)*/
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+
+}
+
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media(max-width: 700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
+
+
+
+/*FOOTER*/
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fab{
+    color: #c4d3df;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    font-size: 45px;
+}
+
+.icons .fab:hover{
+   transform: translateY(-15px);
+}
+
+
+/*NOSOTROS HTML*/
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img{
+    width: 100%; 
+}
+
+.about-col h1{
+    padding-top: 0;
+}
+
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+
+
+/*CONTACTO*/
+
+/*MAPA*/
+
+.location{
+    width: 90%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location inframe{
+    width: 100%;
+}
+
+@media(max-width: 700px){
+    .location iframe{ 
+        height: 200px;
+        width: 330px;
+        
+  }
+
+}
+
+/*CONTACTO FORMULARIO*/
+
+.contact-us{
+   width: 80%;
+   margin: auto;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+
+}
+
+.animacionCon1{
+    animation-duration: 1.5s;
+}
+.animacionCon2{
+    animation-duration: 2.5s;
+}
+.animacionCon3{
+    animation-duration: 3.5s;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.contact-col div .fas{
+    font-size: 30px;
+    color: #c4d3df;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col div .far{
+    font-size: 30px;
+    color: #c4d3df;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
